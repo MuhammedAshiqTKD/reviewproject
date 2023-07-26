@@ -1,0 +1,124 @@
+.navright {
+    text-align: end;
+    padding-top: 13px;
+    gap: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* margin-left: 10px; */
+}
+
+.navright .a2 {
+    background-color: yellow;
+    color: black;
+    border-radius: 3px;
+    padding-left: 8px;
+    padding-right: 10px;
+    margin-left: 30px;
+}
+
+.navright .a1:hover {
+    background-color: yellow;
+    color: black;
+    border-radius: 3px;
+    padding-left: 8px;
+    padding-right: 8px;
+
+}
+
+.navright .a3:hover {
+    background-color: yellow;
+    color: black;
+    border-radius: 3px;
+    padding-left: 8px;
+    padding-right: 10px;
+}
+
+.container-fluid {
+    background-color: black;
+    
+}
+
+.navleft h2 {
+    font-size: 43px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 14px;
+    color: rgb(255, 255, 255);
+    padding-top: 8px;
+}
+
+.navright a {
+    text-decoration: none;
+    color: white;
+    margin-right: 12px;
+    /* background-color: yellow; */
+}
+
+.backimg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.648), rgba(0, 0, 0, 0.648)), url("../image/backimg.jpg");
+    background-size: cover;
+    height: 789px;
+    padding-bottom: 40px;
+    background-attachment: fixed;
+    padding-top: 90px;
+}
+.imgsec1{
+    background-image:url("../image/contactimgimg.jpg");
+    height: 488px;
+    width: 495px;
+    background-size: cover;
+
+    
+}
+.backimg h2{
+    font-size: 64px;
+    color: white;
+    padding-left: 545px;
+}
+.backimg span{
+    color: yellow;
+}
+.contact2 h2{
+    font-size: 46px;
+    margin-right: 65px;
+}
+.location h2{
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 34px;
+
+}
+.phone h2{
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 34px;
+}
+.mail h2{
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 34px;
+    
+}
+.location i{
+    color: yellow;
+    margin-left: 525px;
+    font-size: 34px;
+
+}
+.phone i{
+    color: yellow;
+    margin-left: 525px;
+    font-size: 47px;
+}
+.mail i{
+    color: yellow;
+    margin-left: 525px;
+    font-size: 27px;
+}
+.contact4{
+    font-size: 49px;
+    color: rgb(255, 255, 255);
+    padding-left: 43px;
+    padding-top: 34px;
+}
+.contact4:hover{
+    color: yellow;
+}

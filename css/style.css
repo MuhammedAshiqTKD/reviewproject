@@ -1,0 +1,183 @@
+.navright {
+    text-align: end;
+    padding-top: 13px;
+    gap: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* margin-left: 10px; */
+
+
+}
+
+.navright .a1{
+    background-color: yellow;
+    color: black;
+    border-radius: 3px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-left: 30px;
+}
+.navright .a2:hover{
+    background-color: yellow;
+    color: black;
+    border-radius: 3px;
+    padding-left: 8px;
+    padding-right: 8px;
+    
+}
+.navright .a3:hover{
+    background-color: yellow;
+    color: black;
+    border-radius: 3px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.container-fluid {
+    background-color: black;
+    /* position: sticky;
+    top: 0; */
+
+
+}
+
+.navleft h2 {
+    font-size: 43px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 14px;
+    color: rgb(255, 255, 255);
+    padding-top: 8px;
+}
+
+.navright a {
+    text-decoration: none;
+    color: white;
+    margin-right: 12px;
+    /* background-color: yellow; */
+}
+
+.backimg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.648), rgba(0, 0, 0, 0.648)), url("../image/backimg.jpg");
+    background-size: cover;
+    height: 730px;
+}
+
+.texthead {
+    color: rgb(164, 164, 164);
+    text-align: center;
+    padding-top: 184px;
+}
+
+.texthead h2 {
+    font-size: 70px;
+    letter-spacing: 10px;
+}
+
+.texthead h3 {
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+
+.containerbtn{
+    text-align: center;
+    gap: 17px;
+    padding-top: 22px;
+
+}
+.btt1 {
+    background-color: transparent;
+    border: 1px solid white;
+    height: 39px;
+    width: 193px;
+    margin-right: 17px;
+    
+
+}
+.btt1{
+    text-decoration: none;
+    color: white;
+    letter-spacing: 6px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.btt1:hover{
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border: 2px solid black;
+}
+.btt2 {
+    background-color: transparent;
+    border: 1px solid white;
+    height: 39px;
+    width: 193px;
+    margin-right: 17px;
+    
+
+}
+.btt2{
+    text-decoration: none;
+    color: white;
+    letter-spacing: 6px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.btt2:hover{
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border: 2px solid black;
+}
+
+.footerbottom{
+    /* background-image:linear-gradient(rgba(0, 0, 0, 0.755), rgba(0, 0, 0, 0.716)), url("../image/footerimg2.jpg");
+    background-size: cover; */
+    height: 194px;
+    width: 100%;
+    
+    background-repeat: no-repeat ;
+}
+.footerbottom img{
+    height: 195px;
+    padding-top: 13px;
+    margin-left: 89px;
+    
+}
+.footcolor{
+    background-color: rgb(0, 0, 0);
+}
+/* .footerbottom h2{
+    color: rgb(99, 98, 98);
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 99px;
+    padding-bottom: 9px;
+    letter-spacing: 2px;
+
+} */
+.footsec2{
+    color: rgb(131, 131, 131);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: smaller;
+    color: gray;
+}
+.footsec2 a{
+    text-decoration: none;
+    color: rgb(62, 60, 60);
+}
+.footsec2 h1{
+    font-size: 18px;
+    padding-top: 15px;
+    gap: 2px;
+}
+.footsec3{
+    padding-top: 49px;
+}
+.footsec3 i{
+    /* color: white; */
+    margin: 10px;
+    padding-left: 13px;
+}
