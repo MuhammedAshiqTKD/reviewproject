@@ -1,3 +1,4 @@
+
 .navright {
     text-align: end;
     padding-top: 13px;
@@ -34,7 +35,7 @@
 
 .container-fluid {
     background-color: black;
-    
+
 }
 
 .navleft h2 {
@@ -57,6 +58,8 @@
     background-size: cover;
     height: auto;
     padding-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
     background-attachment: fixed;
     padding-top: 90px;
 }
@@ -105,85 +108,107 @@
     color: rgb(0, 0, 0);
     border: 2px solid black;
 }
-.cardimg1 img{
+
+.cardimg1 img {
     height: 293px;
     width: 369px;
     border-radius: 12px;
 }
-.cardpara1{
-     color: white;
-     text-align: justify
+
+.cardpara1 {
+    color: white;
+    text-align: justify
 }
-.moviename1 h2{
+
+.moviename1 h2 {
     color: white;
 }
-.cardmain1{
+
+.cardmain1 {
 
     width: 30%;
     padding-left: 29px;
     padding-top: 20px;
-    display: flex;
+    /* display: flex;
+    flex-wrap: wrap; */
     /* background-color: white; */
     padding-left: 78px;
     gap: 72px;
 }
-.cardpara1{
-    width: 392px;
+
+.cardpara1 {
+    width: 362px;
     margin-right: 32px;
 }
-.cardimg2 img{
+
+.cardimg2 img {
     height: 293px;
     width: 369px;
     border-radius: 12px;
+    padding-top: 23px;
 }
-.cardpara2{
-     color: white;
-     text-align: justify
+
+.cardpara2 {
+    color: white;
+    text-align: justify
 }
-.moviename2 h2{
+
+.moviename2 h2 {
     color: white;
 }
-.cardmain2{
+
+.cardmain2 {
 
     width: 30%;
     padding-left: 29px;
     padding-top: 20px;
-    display: flex;
+    /* display: flex;
+    flex-wrap: wrap; */
     /* background-color: white; */
     padding-left: 78px;
     gap: 72px;
 }
-.cardpara2{
-    width: 392px;
+
+
+.cardpara2 {
+    width: 362px;
     margin-right: 32px;
 }
-.cardimg3 img{
+
+.cardimg3 img {
     height: 293px;
     width: 369px;
     border-radius: 12px;
+    padding-top: 20px;
 }
-.cardpara3{
-     color: white;
-     text-align: justify
+
+.cardpara3 {
+    color: white;
+    text-align: justify
 }
-.moviename3 h2{
+
+.moviename3 h2 {
     color: white;
 }
-.cardmain3{
+
+.cardmain3 {
 
     width: 30%;
     padding-left: 29px;
     padding-top: 20px;
-    display: flex;
+    /* display: flex;
+    flex-wrap: wrap; */
     /* background-color: white; */
     padding-left: 78px;
     gap: 72px;
 }
-.cardpara3{
-    width: 392px;
+
+.cardpara3 {
+    width: 362px;
     margin-right: 32px;
 }
-.cardbtn1 a{
+
+.cardbtn1 a {
     padding-left: 165px;
     margin-top: 19px;
     text-decoration: none;
@@ -192,84 +217,1057 @@
     margin-left: 82px;
     width: 12px;
     border: 2px dotted red;
-    
+
 }
-.cardbtn2 a{
+
+.cardbtn2 a {
     padding-left: 165px;
     text-decoration: none;
 }
-.cardbtn3 a{
+
+.cardbtn3 a {
     padding-left: 165px;
     text-decoration: none;
 }
-.btt1{
+
+.btt1 {
     background-color: transparent;
     border: 1px solid white;
     height: 39px;
     width: 193px;
     margin-right: 17px;
     /* padding-left: 153px; */
-    
+
 
 }
-.btt1{
+
+.btt1 {
     color: white;
     letter-spacing: 6px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
-.btt1:hover{
+
+.btt1:hover {
     background-color: white;
     color: rgb(0, 0, 0);
     border: 2px solid black;
 }
-.btt2{
+
+.btt2 {
     background-color: transparent;
     border: 1px solid white;
     height: 39px;
     width: 193px;
     margin-right: 17px;
-    
+
 
 }
-.btt2{
+
+.btt2 {
     color: white;
     letter-spacing: 6px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.btt2:hover{
+
+.btt2:hover {
     background-color: white;
     color: rgb(0, 0, 0);
     border: 2px solid black;
 }
-.btt3{
+
+.btt3 {
     background-color: transparent;
     border: 1px solid white;
     height: 39px;
     width: 193px;
     margin-right: 17px;
-    
+
 
 }
-.btt3{
+
+.btt3 {
     color: white;
     letter-spacing: 6px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.btt3:hover{
+
+.btt3:hover {
     background-color: white;
     color: rgb(0, 0, 0);
     border: 2px solid black;
 }
-.cardbtn1{
+
+.cardbtn1 {
     margin-left: 89px;
     padding-top: 24px;
 }
-.cardbtn2{
+
+.cardbtn2 {
     margin-left: 89px;
     padding-top: 24px;
 }
-.cardbtn3{
+
+.cardbtn3 {
     margin-left: 89px;
     padding-top: 24px;
+}
+
+
+
+
+
+/* ////////////////////media query */
+
+
+@media(min-width:300px) and (max-width:399.98px) {
+    .navright {
+        text-align: end;
+        padding-top: 13px;
+        gap: 20px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        /* margin-left: 10px; */
+    }
+
+
+
+    .navright .a2:hover {
+        background-color: yellow;
+        color: black;
+        border-radius: 3px;
+        padding-left: 8px;
+        padding-right: 10px;
+        margin-left: 30px;
+    }
+
+    .navright .a1:hover {
+        background-color: yellow;
+        color: black;
+        border-radius: 3px;
+        padding-left: 8px;
+        padding-right: 8px;
+
+    }
+
+    .navright .a3 {
+        background-color: yellow;
+        color: black;
+        border-radius: 3px;
+        padding-left: 14px;
+        padding-right: 10px;
+        font-size: 10px;
+    }
+    .navright .a2 {
+        background-color: yellow;
+        color: black;
+        border-radius: 3px;
+        padding-left: 8px;
+        padding-right: 10px;
+        font-size: 10px;
+    }
+    .navright .a1 {
+        background-color: yellow;
+        color: black;
+        border-radius: 3px;
+        padding-left: 16px;
+        padding-right: 10px;
+        font-size: 10px;
+    }
+
+    .container-fluid {
+        background-color: black;
+        /* width: 388px; */
+
+    }
+
+    .navleft h2 {
+        font-size: 17px;
+        font-family: 'Times New Roman', Times, serif;
+        letter-spacing: 14px;
+        color: rgb(255, 255, 255);
+        padding-top: 8px;
+    }
+
+    .navright a {
+        text-decoration: none;
+        color: white;
+        margin-right: px;
+        /* background-color: yellow; */
+    }
+
+    .backimg {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.648), rgba(0, 0, 0, 0.648)), url("../image/backimg.jpg");
+        background-size: cover;
+        height: auto;
+        padding-bottom: 40px;
+        display: inline;
+        flex-wrap: wrap;
+        background-attachment: fixed;
+        padding-top: 90px;
+        width: auto;
+        
+    }
+
+    .texthead {
+        color: rgb(164, 164, 164);
+        text-align: center;
+        padding-top: 184px;
+    }
+
+    .texthead h2 {
+        font-size: 70px;
+        letter-spacing: 10px;
+    }
+
+    .texthead h3 {
+        font-size: 20px;
+        letter-spacing: 5px;
+    }
+
+    .containerbtn {
+        text-align: center;
+        gap: 17px;
+        padding-top: 22px;
+
+    }
+
+    .btt1 {
+        background-color: transparent;
+        border: 1px solid white;
+        height: 39px;
+        width: 193px;
+        margin-right: 17px;
+
+
+    }
+
+    .btt1 {
+        color: white;
+        letter-spacing: 6px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .btt1:hover {
+        background-color: white;
+        color: rgb(0, 0, 0);
+        border: 2px solid black;
+    }
+
+    /**/
+    .cardimg1 img{
+        height: 130px;
+        width: 151px;
+        border-radius: 12px;
+
+
+    }
+    .cardimg2 img{
+        height: 130px;
+        width: 151px;
+        border-radius: 12px;
+
+
+    }
+    .cardimg3 img{
+        height: 130px;
+        width: 151px;
+        border-radius: 12px;
+
+
+    }
+    .moviename1 h2{
+        color: black;
+    }
+    .cardpara1{
+        color: black;
+        width: 180px;
+    }
+    .moviename2 h2{
+        color: black;
+    }
+    .cardpara2{
+        color: black;
+        width: 180px;
+    }
+    .moviename3 h2{
+        color: black;
+    }
+    .cardpara3{
+        color: black;
+        width: 180px;
+    }
+    /* .card1main1 img{
+        margin-top: 90px
+    }
+    .card1main2 img{
+        margin-top: 90px
+    }
+    .card1main3 img{
+        margin-top: 90px
+    } */
+    
+
+}
+
+
+
+
+
+
+
+/* //////////////////////400px */
+@media(min-width:400px) and (max-width:575.98px) {
+    .navright {
+        text-align: end;
+        padding-top: 13px;
+        gap: 20px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        /* margin-left: 10px; */
+    }
+
+
+
+    .navright .a2:hover {
+        background-color: yellow;
+        color: black;
+        border-radius: 3px;
+        padding-left: 8px;
+        padding-right: 10px;
+        margin-left: 30px;
+    }
+
+    .navright .a1:hover {
+        background-color: yellow;
+        color: black;
+        border-radius: 3px;
+        padding-left: 8px;
+        padding-right: 8px;
+
+    }
+
+    .navright .a3 {
+        background-color: yellow;
+        color: black;
+        border-radius: 3px;
+        padding-left: 14px;
+        padding-right: 10px;
+        font-size: 10px;
+    }
+    .navright .a2 {
+        background-color: yellow;
+        color: black;
+        border-radius: 3px;
+        padding-left: 8px;
+        padding-right: 10px;
+        font-size: 10px;
+    }
+    .navright .a1 {
+        background-color: yellow;
+        color: black;
+        border-radius: 3px;
+        padding-left: 16px;
+        padding-right: 10px;
+        font-size: 10px;
+    }
+
+    .container-fluid {
+        background-color: #000000;
+        width: 388px; 
+
+    }
+
+    .navleft h2 {
+        font-size: 17px;
+        font-family: 'Times New Roman', Times, serif;
+        letter-spacing: 14px;
+        color: rgb(255, 255, 255);
+        padding-top: 8px;
+    }
+
+    .navright a {
+        text-decoration: none;
+        color: white;
+        margin-right: 120px;
+        margin-bottom: 18px;
+        /* background-color: yellow; */
+    }
+
+    .backimg {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.648), rgba(0, 0, 0, 0.648)), url("../image/backimg.jpg");
+        background-size: cover;
+        height: auto;
+        padding-bottom: 40px;
+        display: inline;
+        flex-wrap: wrap;
+        background-attachment: fixed;
+        padding-top: 90px;
+        width: auto;
+        
+    }
+
+    .texthead {
+        color: rgb(164, 164, 164);
+        text-align: center;
+        padding-top: 184px;
+    }
+
+    .texthead h2 {
+        font-size: 70px;
+        letter-spacing: 10px;
+    }
+
+    .texthead h3 {
+        font-size: 20px;
+        letter-spacing: 5px;
+    }
+
+    .containerbtn {
+        text-align: center;
+        gap: 17px;
+        padding-top: 22px;
+
+    }
+
+    .btt1 {
+        background-color: transparent;
+        border: 1px solid white;
+        height: 39px;
+        width: 193px;
+        margin-right: 17px;
+
+
+    }
+
+    .btt1 {
+        color: white;
+        letter-spacing: 6px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .btt1:hover {
+        background-color: white;
+        color: rgb(0, 0, 0);
+        border: 2px solid black;
+    }
+
+    /**/
+    .cardimg1 img{
+        height: 150px;
+        width: 231px;
+        border-radius: 12px;
+       
+
+
+    }
+    .cardimg2 img{
+        height: 150px;
+        width: 241px;
+        border-radius: 12px;
+
+
+    }
+    .cardimg3 img{
+        height: 150px;
+        width: 241px;
+        border-radius: 12px;
+
+
+    }
+    .moviename1 h2{
+        color: black;
+    }
+    .cardpara1{
+        color: black;
+        width: 230px;
+    }
+    .moviename2 h2{
+        color: black;
+    }
+    .cardpara2{
+        color: black;
+        width: 230px;
+    }
+    .moviename3 h2{
+        color: black;
+    }
+    .cardpara3{
+        color: black;
+        width: 230px;
+    }
+}
+
+
+
+
+
+@media(min-width:576px) and (max-width:767.98px) {
+    .navright {
+        text-align: end;
+        padding-top: 13px;
+        gap: 20px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        /* margin-left: 10px; */
+    }
+
+
+
+    .navright .a2:hover {
+        background-color: yellow;
+        color: black;
+        border-radius: 3px;
+        padding-left: 8px;
+        padding-right: 10px;
+        margin-left: 30px;
+    }
+
+    .navright .a1:hover {
+        background-color: yellow;
+        color: black;
+        border-radius: 3px;
+        padding-left: 8px;
+        padding-right: 8px;
+
+    }
+
+    .navright .a3 {
+        background-color: yellow;
+        color: black;
+        border-radius: 3px;
+        padding-left: 14px;
+        padding-right: 10px;
+        font-size: 10px;
+    }
+    .navright .a2 {
+        background-color: yellow;
+        color: black;
+        border-radius: 3px;
+        padding-left: 8px;
+        padding-right: 10px;
+        font-size: 10px;
+    }
+    .navright .a1 {
+        background-color: yellow;
+        color: black;
+        border-radius: 3px;
+        padding-left: 16px;
+        padding-right: 10px;
+        font-size: 10px;
+    }
+
+    .container-fluid {
+        background-color: black;
+        /* width: 388px; */
+
+    }
+
+    .navleft h2 {
+        font-size: 27px;
+        font-family: 'Times New Roman', Times, serif;
+        letter-spacing: 14px;
+        color: rgb(255, 255, 255);
+        padding-top: 8px;
+    }
+
+    .navright a {
+        text-decoration: none;
+        color: white;
+        margin-right: 70px;
+        /* background-color: yellow; */
+    }
+
+    .backimg {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.648), rgba(0, 0, 0, 0.648)), url("../image/backimg.jpg");
+        background-size: cover;
+        height: auto;
+        padding-bottom: 40px;
+        display: inline;
+        flex-wrap: wrap;
+        background-attachment: fixed;
+        padding-top: 90px;
+        width: auto;
+        
+    }
+
+    .texthead {
+        color: rgb(164, 164, 164);
+        text-align: center;
+        padding-top: 184px;
+    }
+
+    .texthead h2 {
+        font-size: 70px;
+        letter-spacing: 10px;
+    }
+
+    .texthead h3 {
+        font-size: 20px;
+        letter-spacing: 5px;
+    }
+
+    .containerbtn {
+        text-align: center;
+        gap: 17px;
+        padding-top: 22px;
+
+    }
+
+    .btt1 {
+        background-color: transparent;
+        border: 1px solid white;
+        height: 39px;
+        width: 193px;
+        margin-right: 17px;
+
+
+    }
+
+    .btt1 {
+        color: white;
+        letter-spacing: 6px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .btt1:hover {
+        background-color: white;
+        color: rgb(0, 0, 0);
+        border: 2px solid black;
+    }
+
+    /**/
+    .cardimg1 img{
+        height: 190px;
+        width: 361px;
+        border-radius: 12px;
+
+
+    }
+    .cardimg2 img{
+        height: 190px;
+        width: 361px;
+        border-radius: 12px;
+
+
+    }
+    .cardimg3 img{
+        height: 190px;
+        width: 361px;
+        border-radius: 12px;
+
+
+    }
+    .moviename1 h2{
+        color: black;
+        font-size: 40px;
+     
+    }
+    .cardpara1{
+        color: black;
+        width: 361px;
+        font-size: 20px;
+    }
+    .moviename2 h2{
+        color: black;
+        font-size: 40px;
+    }
+    .cardpara2{
+        color: black;
+        width: 361px;
+        font-size: 20px;
+    }
+    .moviename3 h2{
+        color: black;
+        font-size: 40px;
+    }
+    .cardpara3{
+        color: black;
+        font-size: 20px;
+        width: 361px;
+    }
+
+    
+
+}
+
+
+
+
+
+
+
+
+/* ////////////////// */
+@media(min-width:768px) and (max-width:991.98px) {
+    .navright {
+        text-align: end;
+        padding-top: 13px;
+        gap: 20px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        /* margin-left: 10px; */
+    }
+
+
+
+    .navright .a2:hover {
+        background-color: yellow;
+        color: black;
+        border-radius: 3px;
+        padding-left: 8px;
+        padding-right: 10px;
+        margin-left: 30px;
+    }
+
+    .navright .a1:hover {
+        background-color: yellow;
+        color: black;
+        border-radius: 3px;
+        padding-left: 8px;
+        padding-right: 8px;
+
+    }
+
+    .navright .a3 {
+        background-color: yellow;
+        color: black;
+        border-radius: 3px;
+        padding-left: 17px;
+        padding-right: 10px;
+        font-size: 15px;
+    }
+    .navright .a2 {
+        background-color: yellow;
+        color: black;
+        border-radius: 3px;
+        padding-left: 8px;
+        padding-right: 10px;
+        font-size: 15px;
+    }
+    .navright .a1 {
+        background-color: yellow;
+        color: black;
+        border-radius: 3px;
+        padding-left: 19px;
+        padding-right: 10px;
+        font-size: 15px;
+    }
+
+    .container-fluid {
+        background-color: #000000;
+        width: 388px; 
+
+    }
+
+    .navleft h2 {
+        font-size: 37px;
+        font-family: 'Times New Roman', Times, serif;
+        letter-spacing: 14px;
+        color: rgb(255, 255, 255);
+        padding-top: 8px;
+    }
+
+    .navright a {
+        text-decoration: none;
+        color: white;
+        margin-right: 120px;
+        margin-bottom: 18px;
+        /* background-color: yellow; */
+    }
+
+    .backimg {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.648), rgba(0, 0, 0, 0.648)), url("../image/backimg.jpg");
+        background-size: cover;
+        height: auto;
+        padding-bottom: 40px;
+        display: inline;
+        flex-wrap: wrap;
+        background-attachment: fixed;
+        padding-top: 90px;
+        width: auto;
+        
+    }
+
+    .texthead {
+        color: rgb(164, 164, 164);
+        text-align: center;
+        padding-top: 184px;
+    }
+
+    .texthead h2 {
+        font-size: 70px;
+        letter-spacing: 10px;
+    }
+
+    .texthead h3 {
+        font-size: 20px;
+        letter-spacing: 5px;
+    }
+
+    .containerbtn {
+        text-align: center;
+        gap: 17px;
+        padding-top: 22px;
+
+    }
+
+    .btt1 {
+        background-color: transparent;
+        border: 1px solid white;
+        height: 39px;
+        width: 193px;
+        margin-right: 17px;
+
+
+    }
+
+    .btt1 {
+        color: white;
+        letter-spacing: 6px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .btt1:hover {
+        background-color: white;
+        color: rgb(0, 0, 0);
+        border: 2px solid black;
+    }
+
+    /**/
+    .cardimg1 img{
+        height: 310px;
+        width: 491px;
+        border-radius: 12px;
+       
+
+
+    }
+    .cardimg2 img{
+        height: 310px;
+        width: 491px;
+        border-radius: 12px;
+
+
+    }
+    .cardimg3 img{
+        height: 310px;
+        width: 491px;
+        border-radius: 12px;
+
+
+    }
+    .moviename1 h2{
+        color: black;
+        font-size: 36px;
+    }
+    .cardpara1{
+        color: black;
+        width: 490px;
+    }
+    .moviename2 h2{
+        color: black;
+        font-size: 36px;
+    }
+    .cardpara2{
+        color: black;
+        width: 490px;
+    }
+    .moviename3 h2{
+        color: black;
+        font-size: 36px;
+    }
+    .cardpara3{
+        color: black;
+        width: 490px;
+    }
+}
+
+
+
+
+
+
+
+
+/* ////////////////// */
+@media(min-width:992px) and (max-width:1199.98px) {
+    .navright {
+        text-align: end;
+        padding-top: 13px;
+        gap: 20px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        /* margin-left: 10px; */
+    }
+
+
+
+    .navright .a2:hover {
+        background-color: yellow;
+        color: black;
+        border-radius: 3px;
+        padding-left: 8px;
+        padding-right: 10px;
+        margin-left: 30px;
+    }
+
+    .navright .a1:hover {
+        background-color: yellow;
+        color: black;
+        border-radius: 3px;
+        padding-left: 8px;
+        padding-right: 8px;
+
+    }
+
+    .navright .a3 {
+        background-color: yellow;
+        color: black;
+        border-radius: 3px;
+        padding-left: 17px;
+        padding-right: 10px;
+        font-size: 15px;
+    }
+    .navright .a2 {
+        background-color: yellow;
+        color: black;
+        border-radius: 3px;
+        padding-left: 8px;
+        padding-right: 10px;
+        font-size: 15px;
+    }
+    .navright .a1 {
+        background-color: yellow;
+        color: black;
+        border-radius: 3px;
+        padding-left: 19px;
+        padding-right: 10px;
+        font-size: 15px;
+    }
+
+    .container-fluid {
+        background-color: #000000;
+        width: 388px; 
+
+    }
+
+    .navleft h2 {
+        font-size: 51px;
+        font-family: 'Times New Roman', Times, serif;
+        letter-spacing: 14px;
+        color: rgb(255, 255, 255);
+        padding-top: 8px;
+        margin-top: 32px;
+    }
+
+    .navright a {
+        text-decoration: none;
+        color: white;
+        margin-right: 120px;
+        margin-bottom: 18px;
+        /* background-color: yellow; */
+    }
+
+    .backimg {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.648), rgba(0, 0, 0, 0.648)), url("../image/backimg.jpg");
+        background-size: cover;
+        height: auto;
+        padding-bottom: 40px;
+        display: inline;
+        flex-wrap: wrap;
+        background-attachment: fixed;
+        padding-top: 90px;
+        width: auto;
+        
+    }
+
+    .texthead {
+        color: rgb(164, 164, 164);
+        text-align: center;
+        padding-top: 184px;
+    }
+
+    .texthead h2 {
+        font-size: 70px;
+        letter-spacing: 10px;
+    }
+
+    .texthead h3 {
+        font-size: 20px;
+        letter-spacing: 5px;
+    }
+
+    .containerbtn {
+        text-align: center;
+        gap: 17px;
+        padding-top: 22px;
+
+    }
+
+    .btt1 {
+        background-color: transparent;
+        border: 1px solid white;
+        height: 39px;
+        width: 193px;
+        margin-right: 17px;
+
+
+    }
+
+    .btt1 {
+        color: white;
+        letter-spacing: 6px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .btt1:hover {
+        background-color: white;
+        color: rgb(0, 0, 0);
+        border: 2px solid black;
+    }
+
+    /**/
+    .cardimg1 img{
+        height: 310px;
+        width: 791px;
+        border-radius: 12px;
+        margin-left: 30px;
+       
+
+
+    }
+    .cardimg2 img{
+        height: 310px;
+        width: 991px;
+        border-radius: 12px;
+
+
+    }
+    .cardimg3 img{
+        height: 310px;
+        width: 491px;
+        border-radius: 12px;
+
+
+    }
+    .moviename1 h2{
+        color: black;
+        font-size: 36px;
+    }
+    .cardpara1{
+        color: black;
+        width: 490px;
+    }
+    .moviename2 h2{
+        color: black;
+        font-size: 36px;
+    }
+    .cardpara2{
+        color: black;
+        width: 490px;
+    }
+    .moviename3 h2{
+        color: black;
+        font-size: 36px;
+    }
+    .cardpara3{
+        color: black;
+        width: 490px;
+    }
 }
